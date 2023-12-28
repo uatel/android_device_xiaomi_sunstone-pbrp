@@ -22,8 +22,8 @@ BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_MISSING_REQUIRED_MODULES := true
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_moonstone
-TARGET_RECOVERY_DEVICE_MODULES := libinit_moonstone
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sunstone
+TARGET_RECOVERY_DEVICE_MODULES := libinit_sunstone
 
 # Architecture
 TARGET_ARCH := arm64
@@ -48,9 +48,9 @@ PRODUCT_PLATFORM := holi
 TARGET_USES_UEFI := true
 
 # Platform
-TARGET_BOARD_PLATFORM := xiaomi_sm6375
+TARGET_BOARD_PLATFORM := xiaomi_sm4375
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno619
-QCOM_BOARD_PLATFORMS += xiaomi_sm6375
+QCOM_BOARD_PLATFORMS += xiaomi_sm4375
 
 # Kernel
 VENDOR_CMDLINE := "androidboot.hardware=qcom \
